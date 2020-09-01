@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout muni:orientation="vertical"
+    muni:layout_height="match_parent"
+    muni:layout_width="match_parent"
+   tools:context=".MainActivity"
+    muni:weightSum="10"
+    muni:layout_margin="10dp"
+    xmlns:muni="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        muni:layout_width="match_parent"
+        muni:layout_height="0dp"
+        muni:layout_weight="1"
+        muni:text="Toast"
+        muni:textColor="@android:color/white"
+        muni:background="@color/colorPrimary"
+        muni:textAllCaps="false"
+        muni:onClick="showToastMessage"
+        />
+    <TextView
+        muni:layout_width="match_parent"
+        muni:layout_height="0dp"
+        muni:layout_weight="8"
+        muni:id="@+id/tv"
+        muni:background="@color/colorYellow"
+        muni:text="0"
+        muni:gravity="center"
+        muni:textSize="100sp"
+
+        />
+    <Button
+        muni:layout_width="match_parent"
+        muni:layout_height="0dp"
+        muni:layout_weight="1"
+        muni:text="count"
+        muni:textColor="#fff"
+        muni:id="@+id/countBtn"
+        muni:background="@color/colorPrimary"
+        />
+
+</LinearLayout>
