@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C0CD3E"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#0D2FEC"/>
+    <!--MatchParent : The Component want to display as
+     big as its parent and fill in the  remainig spaces-->
+    <!--WrapContent :  The Component just want to display
+    big enough to enclose its content only-->
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/mahesh"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+    <!--dp : Densitive ScaleIndependent Pixel
+    Sp: Scale Independent Pixel
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#0D2FEC"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Disignation"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#0D2FEC"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your MobileNo"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#0D2FEC"
+        />
+
+
+
+</LinearLayout>
