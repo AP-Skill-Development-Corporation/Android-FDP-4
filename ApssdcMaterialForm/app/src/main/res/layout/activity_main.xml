@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/apssdclogo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Name"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#9C27B0"
+        android:fontFamily="serif"/>
+    <EditText
+        android:drawableRight="@drawable/acc"
+        android:hint="Enter Employee Name"
+        android:textColorHint="#FF5722"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:inputType="text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Mobile Number"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#9C27B0"
+        android:fontFamily="serif"/>
+    <EditText
+        android:hint="Enter Employee Mobile Number"
+        android:textColorHint="#FF5722"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:inputType="phone"
+        android:drawableRight="@drawable/phonw"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Employee Email Id"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#9C27B0"
+        android:fontFamily="serif"/>
+    <EditText
+        android:drawableRight="@drawable/ic_email_black_24dp"
+        android:hint="Enter Employee Email"
+        android:textColorHint="#FF5722"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Employee Password"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#9C27B0"
+        android:fontFamily="serif"/>
+    <EditText
+        android:drawableRight="@drawable/ic_lock_black_24dp"
+        android:hint="Enter Employee Password"
+        android:textColorHint="#FF5722"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:inputType="text"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        >
+
+        <EditText
+            android:hint="Enter Employee Confirm Password"
+            android:textColorHint="#FF5722"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterMaxLength="10"
+        app:counterEnabled="true">
+        <EditText
+            android:hint="Enter Employee Designation"
+            android:textColorHint="#FF5722"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:background="@drawable/shape"
+        android:hint="Enter Employee Address"
+        android:textColorHint="#FF5722"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textIsSelectable="true"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_margin="10dp"
+        android:background="@drawable/shape2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
+
+</ScrollView>
